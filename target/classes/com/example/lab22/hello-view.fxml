@@ -8,7 +8,7 @@
         <TextField fx:id="promien" layoutX="19.0" layoutY="49.0" promptText="promien" />
         <TextField fx:id="wysokosc" layoutX="19.0" layoutY="93.0" promptText="wysokosc" />
         <TextField fx:id="grubosc" layoutX="19.0" layoutY="136.0" prefHeight="19.0" prefWidth="149.0" promptText="grubosc" />
-        <Button layoutY="262.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="oblicz">
+        <Button layoutY="262.0" mnemonicParsing="false" onAction="#oblicz" text="oblicz">
             <layoutX>41.0</layoutX>
         </Button>
         <TextArea fx:id="results" editable="false" layoutX="239.0" layoutY="36.0" prefHeight="200.0" prefWidth="200.0" />

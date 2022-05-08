@@ -12,7 +12,7 @@ public class HelloController {
     public TextArea results;
 
     @FXML
-    protected void onHelloButtonClick () {
+    protected void oblicz () {
         String s_promien =promien.getText();
         String s_wysokosc =wysokosc.getText();
         String s_grubosc =grubosc.getText();
